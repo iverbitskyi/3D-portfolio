@@ -20,7 +20,7 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<img src={logo} alt="logo" className="w-20 h-20 object-contain" />
+					<img src={logo} alt="logo" className="w-8 h-8 object-contain" />
 					<p className="text-white text-[18px] font-bold cursor-pointer flex">
 						Blaze &nbsp;<span className="sm:block hidden">| Web-development</span>
 					</p>
