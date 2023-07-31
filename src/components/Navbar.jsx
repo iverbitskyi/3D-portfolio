@@ -10,7 +10,9 @@ const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+		<nav
+			className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+		>
 			<div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 				<Link
 					to="/"
@@ -22,7 +24,7 @@ const Navbar = () => {
 				>
 					<img src={logo} alt="logo" className="w-8 h-8 object-contain" />
 					<p className="text-white text-[18px] font-bold cursor-pointer flex">
-						Blaze &nbsp;<span className="sm:block hidden">| Web-development</span>
+						Blaze &nbsp;<span className="sm:block hidden">| цифрове агентство</span>
 					</p>
 				</Link>
 				<ul className="list-none hidden sm:flex flex-row gap-10">

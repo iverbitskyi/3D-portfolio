@@ -34,19 +34,24 @@ const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<p className={styles.sectionSubText}>Introduction</p>
-				<h2 className={styles.sectionHeadText}>Overview.</h2>
+				<p className={styles.sectionSubText}>Вступ</p>
+				<h2 className={styles.sectionHeadText}>Огляд.</h2>
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				I'm a skilled software developer with experience in TypeScript and JavaScript, and
-				expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and
-				collaborate closely with clients to create efficient, scalable, and user-friendly
-				solutions that solve real-world problems. Let's work together to bring your ideas to
-				life!
+				Ми молода команда айтішників та дизайнерів. Головні напрямки нашої роботи - це розробка
+				веб-застосунків, брендинг, дизайн та цифровий маркетинг - від створення логотипу до
+				комплексного представлення бізнесу в Інтернеті.
+				<br />
+				Ми реалізуємо креативні рішення, необхідні для успішного функціонування вашого бізнесу в
+				мережі, що сприяє розвитку та формуванню впізнаваного бренду.
+				<br />
+				Ми не працюємо по шаблонах, переконані, що відповідальний підхід до роботи у поєднанні
+				із креативом - це гарантія якісного результату. Головне досягнення агентства - це довіра
+				наших клієнтів, які співпрацюють з нами вже не перший рік.
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10">

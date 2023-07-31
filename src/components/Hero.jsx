@@ -16,12 +16,12 @@ const Hero = () => {
 
 				<div>
 					<h1 className={`${styles.heroHeadText} text-white`}>
-						Hi, we are <span className="text-[#915eff]">Blaze</span> agency
+						Привіт, ми - <span className="text-[#915eff]">Blaze</span>
 					</h1>
 
 					<p className={`${styles.heroSubText} mt-2 text-white-100`}>
-						We develop WEB-applications,
-						<br className="sm:block hidden" /> using ReactJs and other technologies.
+						Збільшимо прибуток Вашого бізнесу
+						<br className="sm:block hidden" /> за допомогою цифрових інструментів!
 					</p>
 				</div>
 			</div>

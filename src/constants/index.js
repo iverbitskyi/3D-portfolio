@@ -28,33 +28,36 @@ import {
 export const navLinks = [
 	{
 		id: "about",
-		title: "About",
+		// title: "About",
+		title: "Про нас",
 	},
 	{
 		id: "work",
-		title: "Work",
+		// title: "Work",
+		title: "Портфоліо",
 	},
 	{
 		id: "contact",
-		title: "Contact",
+		// title: "Contact",
+		title: "Контакти",
 	},
 ];
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Web розробка",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "Дизайн",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "Цифровий маркетинг",
 		icon: backend,
 	},
 	{
-		title: "Content Creator",
+		title: "Створення контенту",
 		icon: creator,
 	},
 ];
@@ -179,14 +182,16 @@ const testimonials = [
 		image: "https://randomuser.me/api/portraits/women/4.jpg",
 	},
 	{
-		testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
+		testimonial:
+			"I've never met a web developer who truly cares about their clients' success like Rick does.",
 		name: "Chris Brown",
 		designation: "COO",
 		company: "DEF Corp",
 		image: "https://randomuser.me/api/portraits/men/5.jpg",
 	},
 	{
-		testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+		testimonial:
+			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
 		name: "Lisa Wang",
 		designation: "CTO",
 		company: "456 Enterprises",

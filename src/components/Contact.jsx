@@ -52,7 +52,7 @@ const Contact = () => {
 			.then(
 				() => {
 					setLoading(false);
-					alert("Thank you. I will get back to you as soon as possible.");
+					alert("Дякуємо. Ми зв'яжемося з вами якнайшвидше.");
 
 					setForm({
 						name: "",
@@ -64,7 +64,7 @@ const Contact = () => {
 					setLoading(false);
 					console.error(error);
 
-					alert("Ahh, something went wrong. Please try again.");
+					alert("Щось пішло не так. Будь ласка, спробуйте ще раз.");
 				}
 			);
 	};
@@ -75,12 +75,12 @@ const Contact = () => {
 				variants={slideIn("left", "tween", 0.2, 1)}
 				className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
 			>
-				<p className={styles.sectionSubText}>Get in touch</p>
-				<h3 className={styles.sectionHeadText}>Contact.</h3>
+				<p className={styles.sectionSubText}>Зв'яжіться з нами</p>
+				<h3 className={styles.sectionHeadText}>Контакти.</h3>
 
 				<form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
 					<label className="flex flex-col">
-						<span className="text-white font-medium mb-4">Your Name</span>
+						<span className="text-white font-medium mb-4">Ваше ім'я</span>
 						<input
 							type="text"
 							name="name"
@@ -91,7 +91,7 @@ const Contact = () => {
 						/>
 					</label>
 					<label className="flex flex-col">
-						<span className="text-white font-medium mb-4">Your email</span>
+						<span className="text-white font-medium mb-4">Ваш email</span>
 						<input
 							type="email"
 							name="email"
@@ -102,7 +102,7 @@ const Contact = () => {
 						/>
 					</label>
 					<label className="flex flex-col">
-						<span className="text-white font-medium mb-4">Your Message</span>
+						<span className="text-white font-medium mb-4">Ваше Повідомлення</span>
 						<textarea
 							rows={7}
 							name="message"
@@ -120,6 +120,14 @@ const Contact = () => {
 						{loading ? "Sending..." : "Send"}
 					</button>
 				</form>
+
+				<p className={`${styles.sectionSubText} mb-6`}>Наші контакти</p>
+
+				<div>
+					<p className="text-white font-medium mb-4">+380983379444</p>
+					<p className="text-white font-medium mb-4">blaze.web.agency@gmail.com</p>
+					<p className="text-white font-medium mb-4">Ternopil, Ukraine</p>
+				</div>
 			</motion.div>
 
 			<motion.div
