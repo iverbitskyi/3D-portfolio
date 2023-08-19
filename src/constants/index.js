@@ -15,14 +15,11 @@ import {
 	git,
 	figma,
 	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
 	jobit,
-	tripguide,
 	threejs,
+	sociopedia,
+	videoapp,
+	doticon,
 } from "../assets";
 
 export const navLinks = [
@@ -119,63 +116,63 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
+		title: "Розробник веб-застосунків",
+		company_name: "Freelance",
+		icon: doticon,
 		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		date: "Починаючи з 2019",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Розробка та підтримка веб-додатків з використанням React.js та інших суміжних технологій.",
+			"Співпраця з міжфункціональними командами, включаючи дизайнерів, продакт-менеджерів та інших розробників, для створення високоякісних продуктів.",
+			"Впровадження адаптивного дизайну та забезпечення кросбраузерної сумісності.",
+			"Участь в оглядах коду та надання конструктивного зворотного зв'язку іншим розробникам.",
 		],
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
-		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
+		title: "Створення освітнього курсу",
+		company_name: "History",
+		icon: doticon,
 		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		date: "Червень 2022 - Вересень 2022",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Розроблено веб-платформу для навчального курсу з історії України.",
+			"Відзнято та змонтовано відеоматеріал.",
+			"Розроблено графічний матеріал (історичні карти та інші зображення).",
+			"Комплексно виконана робота в розробці, монтажі та дизайні",
 		],
 	},
-	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
-		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
+	// {
+	// 	title: "Web Developer",
+	// 	company_name: "Shopify",
+	// 	icon: doticon,
+	// 	iconBg: "#383E56",
+	// 	date: "Jan 2022 - Jan 2023",
+	// 	points: [
+	// 		"Розробка та підтримка веб-додатків з використанням React.js та інших суміжних технологій.",
+	// 		"Співпраця з крос-функціональними командами, включаючи дизайнерів, продакт-менеджерів та інших розробників для створення високоякісних продуктів",
+	// 		"Впровадження адаптивного дизайну та забезпечення кросбраузерної сумісності",
+	// 		"Участь в оглядах коду та надання конструктивного зворотного зв'язку іншим розробникам",
+	// 	],
+	// },
+	// {
+	// 	title: "Full stack Developer",
+	// 	company_name: "Meta",
+	// 	icon: doticon,
+	// 	iconBg: "#383E56",
+	// 	date: "Jan 2023 - Present",
+	// 	points: [
+	// 		"Розробка та підтримка веб-додатків з використанням React.js та інших суміжних технологій.",
+	// 		"Співпраця з крос-функціональними командами, включаючи дизайнерів, продакт-менеджерів та інших розробників для створення високоякісних продуктів",
+	// 		"Впровадження адаптивного дизайну та забезпечення кросбраузерної сумісності",
+	// 		"Участь в оглядах коду та надання конструктивного зворотного зв'язку іншим розробникам",
+	// 	],
+	// },
 ];
 
 const testimonials = [
 	{
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+			"Я думав, що неможливо зробити такий гарний веб-сайт, як наш продукт, але Blaze довели, що я помилявся",
 		name: "Sara Lee",
 		designation: "CFO",
 		company: "Acme Co",
@@ -183,7 +180,7 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
+			"Я ніколи не зустрічав веб-розробника, який би по-справжньому піклувався про успіх своїх клієнтів, як це роблять у Blaze",
 		name: "Chris Brown",
 		designation: "COO",
 		company: "DEF Corp",
@@ -191,7 +188,7 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+			"Після того, як Blaze оптимізували наш сайт, наш трафік збільшився на 50%. Ми дуже вдячні!",
 		name: "Lisa Wang",
 		designation: "CTO",
 		company: "456 Enterprises",
@@ -201,9 +198,9 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Sociopedia",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Веб-платформа, соціальна мережа, яка призначена для створення постів, поширення їх друзим. Користувачі мають змогу добавляти друзів, створювати пости, коментувати та лайкати.",
 		tags: [
 			{
 				name: "react",
@@ -214,17 +211,21 @@ const projects = [
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "nodejs",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "express",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: sociopedia,
+		source_code_link: "https://github.com/iverbitskyi/social-network",
 	},
 	{
 		name: "Job IT",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Веб-додаток, який дозволяє користувачам шукати вакансії, переглядати орієнтовний діапазон заробітних плат за посадами та знаходити вільні робочі місця на основі їхнього поточного місцезнаходження.",
 		tags: [
 			{
 				name: "react",
@@ -243,25 +244,25 @@ const projects = [
 		source_code_link: "https://github.com/",
 	},
 	{
-		name: "Trip Guide",
+		name: "Video App",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Веб-застосунок, призначений для завантаження та перегляду відео. Є можливість переглядати відео інших користувачів. Реалізована авторизація.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "mongodb",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "nodejs",
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: videoapp,
+		source_code_link: "https://github.com/iverbitskyi/video-app",
 	},
 ];
 
